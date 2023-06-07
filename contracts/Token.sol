@@ -2,6 +2,9 @@
 pragma solidity ^0.8.0;
 import "../node_modules/hardhat/console.sol";
 
+//we can debug the solidity contracts using hardhat library 
+//and we can write the js code inside solidity smart contract 
+
 contract Token{
     string public name="Hardhat Token";
     string public symbol="HHT";
@@ -17,6 +20,11 @@ contract Token{
     }
 
 function transfer(address to,uint amount) external{
+
+    //let's debug to check the balance 
+    //** is just for ununique in test folder this  */
+    console.log("**Sender balance is %s tokens**",balances[msg.sender]);
+     console.log("**Sender is sending %s token to %s address**",amount,to);
     require(balances[msg.sender]>=amount,"Not enough token");
     balances[msg.sender]-=amount;
     balances[to]+=amount;
