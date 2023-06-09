@@ -1,10 +1,9 @@
 // SPDX-License-Identifier: UNLICENSES
 pragma solidity ^0.8.0;
 import "../node_modules/hardhat/console.sol";
-
 //we can debug the solidity contracts using hardhat library 
 //and we can write the js code inside solidity smart contract 
-
+//it's easy to found the debug in our code 
 contract Token{
     string public name="Hardhat Token";
     string public symbol="HHT";

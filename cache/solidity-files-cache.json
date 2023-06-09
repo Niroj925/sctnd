@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/niroj/Documents/blockchain/hardhat/contracts/Token.sol": {
-      "lastModificationDate": 1686135443306,
-      "contentHash": "ddae9565ab430c214f3efa63028239e9",
+      "lastModificationDate": 1686284828787,
+      "contentHash": "329021dbb59ea82e8c7521317345de93",
       "sourceName": "contracts/Token.sol",
       "solcConfig": {
         "version": "0.8.18",
